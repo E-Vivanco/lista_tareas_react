@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.base-lista{
+    border: 1px solid #36f1e2;
+    width: 450px;   
+}
+h1{
+    color: rgb(40, 41, 43,.33);
+}
+.formulario{
+    background-color: rgb(150, 180, 170,.33);
+}
+
+.lista-tareas{
+    background-color: rgb(71, 73, 73,.22);
+}
+btn{
+    background-color: rgb(80, 182, 182,.33);
+}
+
+.icono{
+ 
+ border-radius: 15px;
+ background-color:#383636;
+}

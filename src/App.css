@@ -11,22 +11,10 @@
 }
 
 .base-lista{
-    border: 1px solid #89f1e9;
-    width: 450px;   
+    border: 1px solid #36f1e2;
+    width: 350px;   
 }
 h1{
     color: rgb(40, 41, 43,.33);
 }
-.formulario{
-    background-color: rgb(150, 180, 170,.33);
-}
 
-.lista-tareas{
-    background-color: rgb(71, 73, 73,.22);
-}
-
-.icono{
- 
- border-radius: 15px;
- background-color:#383636;
-}
