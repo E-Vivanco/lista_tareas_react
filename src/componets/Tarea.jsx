@@ -12,13 +12,15 @@ const Tarea = ({tareas,setTareas}) => {
 
   return (
     <div className='lista-tareas'>
-    { tareas !== "" ?
+    { tareas == "" ?
+    <p>No hay tareas, agregar tareas</p>
+    :
     tareas.map(tarea=>
       <li key={tarea.id}>{tarea.label}
       <button className='mx-2 btn btn-secondary' onClick={()=>deletTarea(tarea.id)}><TiDelete className='icono' /></button>
       </li>
       )
-      : null
+      
     }
       
   </div>
